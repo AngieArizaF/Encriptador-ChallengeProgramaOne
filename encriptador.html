@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"> 
+    <title> Encriptador Alura</title>
+    <link rel="icon" href="images/lupa.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+    <header>
+      <img src="images/logoAlura.svg" alt="Logo Alura">
+    </header>
+
+    <main>
+
+      
+          
+          <div id="input-box">
+            <textarea class="textBox" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+              <img src="images/exclamation-circle-fill.svg" alt="Círculo de exclamación">
+              <p id="recomendacion"> Solo letras minúsculas y sin acentos</p>
+            </div>
+          </div>
+          
+          <div id="output-box" class="textBox">
+            <div>
+              <img src="images/Muneco.svg" alt="Muneco">
+              <p>Ningún mensaje fue encontrado</p>
+              <p>Ingresa el texto que desees encriptar o desencriptar.</p>   
+            </div>
+            <div>
+              <button id="copy-button" >Copiar</button>
+            </div>                 
+          </div>
+
+    
+        <div class="buttons">
+          <button id="boton-encriptar">Encriptar</button>
+          <button id="boton-desencriptar">Desencriptar</button>
+        </div>      
+      <script src="encriptador.js"></script>
+    </main>
+    
+    <footer>
+      <p>Created by Angie Ariza</p>
+      <a href="https://www.linkedin.com/in/angie-ariza-farfan/"><img src="images/logoLinkedin.svg" alt="Logo LinkedIn"></a>
+      <img src="images/logoGithub.svg" alt="Logo GitHub">
+    </footer>
+  
+  </body>
+</html>
